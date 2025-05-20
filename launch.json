@@ -1,0 +1,14 @@
+{
+    "version":"0.2.0",
+    "configuration": [
+        {
+            "type":"node",
+            "request":"launch",
+            "name": ";launchprogram",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\sample.js"
+        }
+    ]
+}
